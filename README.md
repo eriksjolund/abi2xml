@@ -4,13 +4,16 @@ plain text to an xml file.
 
 ## ABI file format
 
-The ABI file binary format is described in this publication:
+The ABI file format is described in this publication:
 
 [_Raw Data File Formats,
 and the Digital and Analog Raw Data Streams
 of the ABI PRISM TM 377 DNA Sequencer_](http://www.cs.cmu.edu/afs/cs/project/genome/WWW/Papers/clark.html)
 
 by Clark Tibbetts, Ph. D. Professor of Microbiology, Vanderbilt University, August 1995.
+
+Applied Biosystems later published their own specification.
+The PDF document [_Applied Biosystems Genetic Analysis Data File Format_](https://github.com/dridk/QAbifReader/blob/master/ABIF_File_Format.pdf) is still available at the QAbifReader Github repo.
 
 ## Command line usage
 
