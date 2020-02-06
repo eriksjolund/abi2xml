@@ -1,5 +1,5 @@
 This program parses the binary file format coming from a
-ABI PRISM TM 377 DNA Sequencer and writes the information in
+__ABI PRISM TM 377 DNA Sequencer__ and writes the information in
 plain text to an XML file.
 
 ## ABI file format
