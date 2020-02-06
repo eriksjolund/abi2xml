@@ -21,13 +21,46 @@ Usage: `abi2xml -i binaryfile -o xmlfile`
 
 Other option flags are also available. To list them type `abi2xml --help`.
 
-An xslt script can be useful when you want to retrieve information from the xml file. 
-Take a look in the xslt_examples sub directory. There you find some example scripts.
+```
+[erik@linux]$ abi2xml --help
+abi2xml 1.2
 
-You run a xslt script like this:
+This program parses the binary file format coming from an
+ABI PRISM TM 377 DNA Sequencer and writes the information out as
+an xml file
+
+Usage: abi2xml [OPTIONS]...
+
+  -h, --help                    Print help and exit
+  -V, --version                 Print version and exit
+  -i, --input-file=STRING       input abi file
+  -o, --output-file=STRING      output xml file
+  -I, --input-dir=STRING        input dir with abi files
+  -O, --output-dir=STRING       output dir
+  -s, --abi-file-suffix=STRING  suffix of abi files ( used with --input-dir )
+                                  (default=`abi')
+  -a, --int-vector-as-attribute write integer vectors inside attributes ( It
+                                  makes file size smaller )
+  -e, --input-encoding=STRING   input string encoding.  Available encodings
+                                  listed at:
+                                  http://doc.trolltech.com/3.0/qtextcodec.html
+                                  (default=`Apple Roman')
+```
+
+
+To convert a whole directory of ABI files to XML
+
+```
+[erik@linux]$ abi2xml -I dir_with_abi_files -O output_dir
+```
+
+If you want to test abi2xml but you don't have any ABI files, you may use the file _staden-src-1-6-0/userdata/Sample_671.ab1_ found in the _staden-src-1-6-0.tar.gz_ from the Staden project.
+
+An XSLT script can be useful when you want to retrieve information from the XML file. 
+Take a look in the [xslt_examples](xslt_examples) sub directory. There you find some example scripts.
+
+You run a XSLT script like this:
 `xsltproc xsltscript abi2xml-generated-xmlfile`
-
-( xsltproc is a command line utility from the package libxslt )
 
 ## Related projects
 
