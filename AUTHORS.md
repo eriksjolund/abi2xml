@@ -1,16 +1,16 @@
-Design and implementation: Erik Sjölund  
+Design and implementation: Erik Sjölund
 
 email: erik.sjolund@gmail.com
 
 in assignment from:
 
 Martti Tammi and Erik Arner
-Karolinska Insitutet, Stockholm, Sweden ( https://www.ki.se ) 
+Karolinska Insitutet, Stockholm, Sweden ( https://www.ki.se )
 
 Many thanks to Martti Tammi and Erik Arner who gave me expert advice concerning
 the ABIF format.
 
-Many thanks to Clark Tibbetts for describing the ABIF format in his publication 
+Many thanks to Clark Tibbetts for describing the ABIF format in his publication
 (see README file).
 
 Erik Arner also provided valuable feedback and ideas about "polishing" the end
