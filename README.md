@@ -2,7 +2,7 @@ This program parses the binary file format coming from a
 ABI PRISM TM 377 DNA Sequencer and writes the information in
 plain text to an xml file.
 
-# ABI file format
+## ABI file format
 
 The ABI file binary format is described in this publication:
 
@@ -12,7 +12,7 @@ of the ABI PRISM TM 377 DNA Sequencer_](http://www.cs.cmu.edu/afs/cs/project/gen
 
 by Clark Tibbetts, Ph. D. Professor of Microbiology, Vanderbilt University, August 1995.
 
-# Usage
+## Command line usage
 
 Usage: `abi2xml -i binaryfile -o xmlfile`
 
