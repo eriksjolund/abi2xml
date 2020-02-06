@@ -29,7 +29,24 @@ You run a xslt script like this:
 
 ( xsltproc is a command line utility from the package libxslt )
 
-## Alternative software
+## Related projects
 
-* [QAbifReader](https://github.com/dridk/QAbifReader/), Qt5 ABIF file reader for Genetic Analysis (License: GNU General Public License v2.0)
+### QAbifReader
 
+[QAbifReader](https://github.com/dridk/QAbifReader/), Qt5 ABIF file reader for Genetic Analysis. License: GPL v2. Programming language: C++.
+
+### ABIParser.py
+
+[ABIParser.py](https://www.bioinformatics.org/wiki/ABIParser.py) is a python module for parsing ABI files. License: GPL v2. Programming language: Python.
+
+###  Biojava - Class ABITrace
+[ABITrace java class](https://biojava.org/docs/api/org/biojava/nbio/core/sequence/io/ABITrace.html) in [Biojava](https://biojava.org/). License: LGPL. Programming language: Java.
+
+### Bioperl - Bio::SeqIO::abi
+Bio::SeqIO::abi is a perl module in [Bioperl](https://bioperl.org/) for parsing ABI files. It doesn't actually parse the abi files but uses the Staden package for that ( see Section 5.5, “Staden” ). License: "You may distribute this module under the same terms as perl itself". Programming language: Perl.
+
+### Emboss - abiview
+[Emboss](https://en.wikipedia.org/wiki/EMBOSS) includes abiview, an application that parses an abi file and converts the information to vector or bitmap images or to text files. License: GPL. Programming language: C.
+
+### Staden
+[Staden](https://en.wikipedia.org/wiki/Staden_Package) has capabilities to extract information from abi trace files ( e.g. the program extract_seq ). License: BSD. Programming language: C.
