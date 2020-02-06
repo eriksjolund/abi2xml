@@ -9,22 +9,11 @@ http://www.cs.cmu.edu/afs/cs/project/genome/WWW/Papers/clark.html
 
 
 
-     _Raw Data File Formats,
-     and the Digital and Analog Raw Data Streams
-     of the ABI PRISM TM 377 DNA Sequencer_
+[_Raw Data File Formats,
+and the Digital and Analog Raw Data Streams
+of the ABI PRISM TM 377 DNA Sequencer_](http://www.cs.cmu.edu/afs/cs/project/genome/WWW/Papers/clark.html)
 
-     _A preliminary technical examination_
-
-     by
-
-     Clark Tibbetts, Ph. D.
-     Professor of Microbiology
-
-     A5217 Medical Center North
-     Vanderbilt University
-     Nashville, TN 37232-2363
-
-     August 1995
+by Clark Tibbetts, Ph. D. Professor of Microbiology, Vanderbilt University, August 1995.
 
 # Usage
 
