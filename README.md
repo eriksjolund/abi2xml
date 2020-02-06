@@ -5,9 +5,6 @@ plain text to an xml file.
 # ABI file format
 
 The ABI file binary format is described in this publication:
-http://www.cs.cmu.edu/afs/cs/project/genome/WWW/Papers/clark.html
-
-
 
 [_Raw Data File Formats,
 and the Digital and Analog Raw Data Streams
