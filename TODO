@@ -1,0 +1,15 @@
+Todo list:
+
+* implement datarecord "KUKU"
+* implement datarecord "THUM"
+* implement datarecord "GELT"
+
+* implement a command line flag to list available codecs.
+
+  Qt 4.0 has a new function to list available codecs.
+  http://doc.trolltech.com/4.0/qtextcodec.html
+  "QList<QByteArray> availableCodecs ()"
+
+
+
+

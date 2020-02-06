@@ -1,0 +1,18 @@
+Prerequisites: You must have the qt library ( version >= 4.1 ) installed ( see http://www.trolltech.com )
+               
+For instance Fedora Core 4 is a Linux distribution where abi2xml is known to build. But first you need to download, build 
+and install Qt-4.1 first, as it is not included in Fedora Core 4.
+
+abi2xml is also known to build on Windows with Qt-4.1. The qt library is also available on MacOS, so abi2xml should probably work there too although
+this has not yet been tested.
+
+To install this program on a Unix platform ( e.g. Linux ), follow these steps:
+
+1. qmake
+2. make
+3. make install
+
+You should then find the executable in the bin subdirectory.
+
+
+

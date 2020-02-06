@@ -1,0 +1,16 @@
+2005-11-26  Erik Sjolund  <erik.sjolund@gmail.com>
+
+	* Release 1.1 
+
+	* AUTHORS: typo fix
+
+	* src/main.cpp: Add functionality to convert a whole directory of abi files
+	* src/gengetopt/abi2xml.ggo: Add command line flags for directory processing
+
+2006-03-30  Erik Sjolund  <erik.sjolund@gmail.com>
+
+	* Release 1.2 
+
+	* : ported the code to Qt 4.1
+
+

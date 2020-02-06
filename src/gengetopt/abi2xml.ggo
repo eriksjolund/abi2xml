@@ -1,0 +1,27 @@
+# file abi2xml.ggo
+# This file is used by the open source "gengetopt" program 
+# available from http://www.gnu.org
+# Usage of that program 
+# does not impose any particular license on the generated code: 
+#
+# This file is used to generate the files "cmdline.c" and
+# "cmdline.c" 
+
+package "abi2xml"
+version "1.2"
+purpose "This program parses the binary file format coming from an
+ABI PRISM TM 377 DNA Sequencer and writes the information out as 
+an xml file"
+
+option	"input-file"	i	"input abi file"	string	no
+option	"output-file"	o	"output xml file"	string	no
+option	"input-dir"	I	"input dir with abi files"	string	no
+option	"output-dir"	O	"output dir"	string	no
+option	"abi-file-suffix"	s	"suffix of abi files ( used with --input-dir )"	string	default="abi" no
+
+option	"int-vector-as-attribute"	a	"write integer vectors inside attributes ( It makes file size smaller )"	no
+
+option	"input-encoding"	e	"input string encoding.  Available encodings listed at: http://doc.trolltech.com/3.0/qtextcodec.html"	string default="Apple Roman"	no
+
+# Maybe add later? Not implemented right now.
+# option	"comments"	c	"write xml comments"	no
