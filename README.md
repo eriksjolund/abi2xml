@@ -1,10 +1,18 @@
-This program parses the binary file format coming from a
-__ABI PRISM TM 377 DNA Sequencer__ and writes the information in
-plain text to an XML file.
+Command-line tool for converting the ABIF file format to XML.
 
-## ABI file format
+## Introduction
 
-The ABI file format is described in this publication:
+The first version of the software tool __abi2xml__ was written in 2003 by Erik Sjölund then working at [Karolinska Institutet](https://ki.se/en). It was meant to serve
+the purpose of parsing the binary file format coming from an
+__ABI PRISM TM 377 DNA Sequencer__ and writing the information as plain text in to an XML file.
+
+In February 2020 the source code was migrated from the [original Sourceforge repository](https://sourceforge.net/projects/abi2xml/)
+in to [Github](https://github.com/eriksjolund/abi2xml/). The migrated source code came from the file _abi2xml-1.2.tar.gz_
+that was released in 2006.
+
+## ABIF file format
+
+The ABIF file format is described in this publication:
 
 [_Raw Data File Formats,
 and the Digital and Analog Raw Data Streams
