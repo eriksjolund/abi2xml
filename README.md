@@ -114,4 +114,4 @@ from  2015 that is also available as a [PDF](https://www.researchgate.net/profil
 * in the scientific paper [_Modification of orthogonal tRNAs: unexpected consequences for sense codon reassignment_](https://academic.oup.com/nar/article/44/21/10042/2290919) that was published
 in _Nucleic Acids Reasearch_ in 2016.
 
-* in the doctoral dissertation [_Expanding and evaluating sense codon reassignment for genetic code expansion_](https://hdl.handle.net/10217/183902) by Biddle, C. William.
+* in the doctoral dissertation [_Expanding and evaluating sense codon reassignment for genetic code expansion_](https://hdl.handle.net/10217/183902) by Biddle, C. William in 2017.
