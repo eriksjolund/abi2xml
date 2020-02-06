@@ -23,6 +23,17 @@ by Clark Tibbetts, Ph. D. Professor of Microbiology, Vanderbilt University, Augu
 [__Applied Biosystems__](https://en.wikipedia.org/wiki/Applied_Biosystems) later published their own specification.
 The PDF document [_Applied Biosystems Genetic Analysis Data File Format_](https://github.com/dridk/QAbifReader/blob/master/ABIF_File_Format.pdf) is still available at the [QAbifReader Github repo](https://github.com/dridk/QAbifReader/).
 
+## Installation
+
+### Alternative 1: building from source
+The qt library version 4 (4.1 or higher) required for abi2xml. The qt library is available for Linux, Microsoft Windows and Mac OS X and others.
+
+After qt has been installed, unpack the abi2xml sources and run `qmake && make && make install`
+
+### Alternative 2: installing prebuilt binary
+
+If you are running Windows on a 32-bit (i386) platform you can download the file abi2xml-1.2.zip and unzip it. If your Windows computer lacks zip support you first have to install 7-zip to be able to unzip the file.
+
 ## Command line usage
 
 Usage: `abi2xml -i binaryfile -o xmlfile`
