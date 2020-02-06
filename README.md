@@ -109,7 +109,7 @@ abi2xml was referenced
 
 * in the book
 [_Plant DNA Barcoding and Phylogenetics_](https://www.amazon.com/Plant-DNA-Barcoding-Phylogenetics-Ajmal/dp/365928095X)
-also available as a [PDF](https://www.researchgate.net/profile/Mohammad_Ajmal_Ali/publication/310234163_Plant_DNA_Barcoding_and_Molecular_Phylogeny/links/582a649d08ae138f1bf34c2c/Plant-DNA-Barcoding-and-Molecular-Phylogeny.pdf)
+that is also available as a [PDF](https://www.researchgate.net/profile/Mohammad_Ajmal_Ali/publication/310234163_Plant_DNA_Barcoding_and_Molecular_Phylogeny/links/582a649d08ae138f1bf34c2c/Plant-DNA-Barcoding-and-Molecular-Phylogeny.pdf).
 
 * in the scientific paper [_Modification of orthogonal tRNAs: unexpected consequences for sense codon reassignment_](https://academic.oup.com/nar/article/44/21/10042/2290919) that was published
 in _Nucleic Acids Reasearch_ in 2016.
