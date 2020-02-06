@@ -13,7 +13,7 @@ of the ABI PRISM TM 377 DNA Sequencer_](http://www.cs.cmu.edu/afs/cs/project/gen
 by Clark Tibbetts, Ph. D. Professor of Microbiology, Vanderbilt University, August 1995.
 
 [__Applied Biosystems__](https://en.wikipedia.org/wiki/Applied_Biosystems) later published their own specification.
-The PDF document [_Applied Biosystems Genetic Analysis Data File Format_](https://github.com/dridk/QAbifReader/blob/master/ABIF_File_Format.pdf) is still available at the QAbifReader Github repo.
+The PDF document [_Applied Biosystems Genetic Analysis Data File Format_](https://github.com/dridk/QAbifReader/blob/master/ABIF_File_Format.pdf) is still available at the [QAbifReader Github repo](https://github.com/dridk/QAbifReader/).
 
 ## Command line usage
 
@@ -29,5 +29,7 @@ You run a xslt script like this:
 
 ( xsltproc is a command line utility from the package libxslt )
 
+## Alternative software
 
+* [QAbifReader](https://github.com/dridk/QAbifReader/), Qt5 ABIF file reader for Genetic Analysis (License: GNU General Public License v2.0)
 
