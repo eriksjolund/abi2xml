@@ -2,7 +2,7 @@ Command-line tool for converting the ABIF file format to XML.
 
 ## Introduction
 
-The first version of the software tool __abi2xml__ was written in 2003 by Erik Sjölund then working at [Karolinska Institutet](https://ki.se/en). It was meant to serve
+The first version of the command-line tool __abi2xml__ was written in 2003 by Erik Sjölund then working at [Karolinska Institutet](https://ki.se/en). It was meant to serve
 the purpose of parsing the binary file format coming from an
 __ABI PRISM TM 377 DNA Sequencer__ and writing the information as plain text in to an XML file.
 
@@ -26,7 +26,7 @@ The PDF document [_Applied Biosystems Genetic Analysis Data File Format_](https:
 ## Installation
 
 ### Alternative 1: building from source
-The qt library version 4 (4.1 or higher) required for abi2xml. The qt library is available for Linux, Microsoft Windows and Mac OS X and others.
+The qt library version 4 (4.1 or higher) required for building abi2xml. The qt library is available for Linux, Microsoft Windows and Mac OS X and others.
 
 After qt has been installed, unpack the abi2xml sources and run `qmake && make && make install`
 
